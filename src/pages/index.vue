@@ -1,5 +1,5 @@
 <template>
-  <Welcome />
+  <Lander />
 </template>
 
 <script lang="ts" setup>
