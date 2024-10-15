@@ -44,15 +44,12 @@
 </script>
 
 <template>
-  <v-timeline align="start">
+  <v-row class="text-h2 my-5">Expected Timeline</v-row>
+  <v-timeline align="start" side="end">
     <v-timeline-item v-for="item in timeline" :key="item.date" :dot-color="item.color" size="small">
       <v-container>
-        <v-row class="justify-center">
-          <v-card-title><v-icon>{{ item.icon }}</v-icon>{{ item.title }}</v-card-title>
-        </v-row>
-        <v-row class="justify-center">
-          <v-card-subtitle>{{ item.date }}</v-card-subtitle>
-        </v-row>
+        <v-row class="text-center"><v-icon class="mr-2">{{ item.icon }}</v-icon>{{ item.title }}</v-row>
+        <v-row class="text-center text-subtitle-2">{{ item.date }}</v-row>
       </v-container>
     </v-timeline-item>
   </v-timeline>
