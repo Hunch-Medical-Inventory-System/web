@@ -15,7 +15,7 @@
     <!-- <template #prepend>
       <v-app-bar-nav-icon />
     </template> -->
-    <v-app-bar-title>Medical Inventory System MIS</v-app-bar-title>
+    <v-app-bar-title>The JJs - Medical Inventory System </v-app-bar-title>
     <template #append>
       <v-switch v-model="darkMode" class="mt-5 mr-5" label="Toggle Theme" @change="toggleTheme()" />
     </template>
